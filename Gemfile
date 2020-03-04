@@ -8,7 +8,7 @@ end
 gem 'rack-cors', :require => 'rack/cors'
 gem 'rails', '~> 5.1.5'
 gem 'pg', '>= 0.18', '< 2.0'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
